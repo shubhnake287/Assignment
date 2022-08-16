@@ -1,0 +1,18 @@
+.topSection {
+    color: black;
+    background-color: rgb(93, 97, 221);
+    text-align: center;
+    padding-left: 135px;
+}
+
+.mainComponent mat-card {
+    padding: 0px !important;
+}
+
+.mainForm {
+    padding: 20px;
+}
+
+mat-card.mat-card.mat-focus-indicator {
+    margin-left: 60%;
+}

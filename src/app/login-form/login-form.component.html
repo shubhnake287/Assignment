@@ -1,0 +1,16 @@
+<div fxLayoutAlign="center center" fxFlexFill class="mainComponent"
+    [ngStyle]="{backgroundImage:'url(../assets/images/2.webp)'}">
+    <mat-card fxFlex="25">
+        <mat-toolbar class="topSection">Welcome</mat-toolbar>
+        <form fxLayoutAlign="stretch" fxLayout="column" class="mainForm">
+            <mat-form-field>
+                <input matInput placeholder="UserName">
+            </mat-form-field>
+
+            <mat-form-field>
+                <input matInput type="password" placeholder="Password">
+            </mat-form-field>
+            <button mat-raised-button type="submit" (click)="submit()">Login</button>
+        </form>
+    </mat-card>
+</div>
